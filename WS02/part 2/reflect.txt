@@ -1,0 +1,20 @@
+// Workshop 2 - Copy and Move Semantics
+// w2_p2.cpp
+// 2021/11/28 - Mufleh Al-Shatnawi
+/*
+Name: Aditya Dharmesh Patel
+Student ID: 143595205
+email: adpatel31@myseneca.ca
+Section: NCC
+Date: 28-jan-2021
+*/
+
+
+I am not quite sure what to write in the reflecting part as I won't get any response from you within a week. Having said that, In this Workshop, I
+have learned how to count the number of records in a text file, and how to monitor time spent on a particular task using "std::chrono". In addition
+to this, I also acquired the knowledge of how to copy and move semantics for a class with a resource. Further more, retrieving records from the text 
+file using an input file stream object was also a vital part that I learned in this workshop. I am still skeptical about what this part teaches us anything. 
+Putting that aside can you provide suggestions as to how I can improvise in this workshop.
+ 
+ 
+	

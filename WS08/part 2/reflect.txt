@@ -1,0 +1,24 @@
+/*
+Name: Aditya Dharmesh Patel
+Student ID: 143595205
+email: adpatel31@myseneca.ca
+Section: NCC
+Date: 26- Mar-2021
+*/
+
+In this workshop I learnt how to use a smart pointer and how to create program component of quadratic complexity.
+
+
+
+1.    the advantage that smart pointer syntax provides. Use example from your code to support your explanation.
+A:    I used unique pointer.Hence, I can't provide an example of smart pointer application in my code
+the use of unique pointer is in WritingRecord.cpp line#46: std::unique_ptr<EmployeeWage> temp(new EmployeeWage(emp[i].name, sal[j].salary));
+                    
+--Smart pointers bring an improvement to a pointer-driven code by attaching resource ownership information to variables.
+					
+
+2.    the difference between raw and smart pointer syntax in your solution.
+
+Raw pointer:  EmployeeWage* temp = new EmployeeWage(emp[i].name, sal[j].salary);
+Smart pointer:  std::unique_ptr<EmployeeWage> temp(new EmployeeWage(emp[i].name, sal[j].salary));
+                   

@@ -1,0 +1,48 @@
+/*
+Name: Aditya Dharmesh Patel
+Student ID: 143595205
+email: adpatel31@myseneca.ca
+Section: NCC
+Date: 13- Feb-2021
+*/
+In this workshop I have learned how to code composition and aggregation based class relationships and use member function of the 
+string class to parse string into token based using simple rules. 
+In addition to this, I also managed to learn how to design a class that manages dynamically allocated pointers array to double pointers
+
+
+#the difference between the implementations of move and copy functions in a composition and an aggregation:(This answer is copied from: https://stackoverflow.com/questions/11881552/implementation-difference-between-aggregation-and-composition-in-java)
+The difference between these two can be simply explained by an example of Car module,
+
+Composition
+
+final class Car {
+
+  private final Engine engine;
+
+  Car(EngineSpecs specs) {
+    engine = new Engine(specs);
+  }
+
+  void move() {
+    engine.work();
+  }
+}
+
+Aggregation
+
+final class Car {
+
+  private Engine engine;
+
+  void setEngine(Engine engine) {
+    this.engine = engine;
+  }
+
+  void move() {
+    if (engine != null)
+      engine.work();
+  }
+}
+The composition code makes it in such way that the engine attribute cannot be accessed outside and even get a reference. The attribute are highly constrained. Whereas, Aggregation makes it so that 
+the engine attributehas the potential to be substituted or can be removed it can also be accessed outside and even get a reference.
+ 

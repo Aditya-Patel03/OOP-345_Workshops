@@ -1,0 +1,17 @@
+/*
+Name: Aditya Dharmesh Patel
+Student ID: 143595205
+email: adpatel31@myseneca.ca
+Section: NCC
+Date: 5- Feb-2021
+*/
+
+
+In this Workshop, I have learned how to design and code a class template and template a class variable.
+I also learned how to specialize a templated class variable for a particular type and how to instantiate 
+a template class and further how to specialize member function of a templated class to process a particular type
+and deriving a templated class from another templated class.
+
+ This workshop was difficult to do. In fact I submitted until the last minute as I still had some debugging errors.
+I always complete the workshop a day before but submit it an hour before its due, but I had to literally complete it at last minute.
+I didn't even got the time to properly write the reflect.

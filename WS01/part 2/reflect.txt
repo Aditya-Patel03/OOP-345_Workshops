@@ -1,0 +1,18 @@
+// Workshop 1 - Linkage, Storage Duration, Namespaces, and OS Interface
+// Michael Huang - 2021/11/28
+/*
+Name: Aditya Dharmesh Patel
+Student ID: 143595205
+email: adpatel31@myseneca.ca
+Section: NCC
+Date: 23-jan-2021
+*/
+
+   In this Workshop, I have learnt how to upgrade my code in accordance to accept and manage user defined string regardless of its length.
+In addition to this, I have demonstrated my abilities to declare local variables residing in memory throughout the program lifetime,
+ receiving program agruments from command line and accessing a variable defined in a different translation unit.
+ 
+    The difficult part for me was the DIY part itself as I find it difficult to upgrade my FoodOrders class in the null terminated string in C-style.
+I used the "#ifndef" guard as I used it more than the"#pragma once" guard. The most difficult part of the workshop for me in this workshop was to get 
+the display right. And the reflection was also a tough part to do. Hence can you provide a good reflection so that I can improvise on this.	
+	
