@@ -1,0 +1,24 @@
+/*
+Name: Aditya Dharmesh Patel
+Student ID: 143595205
+email: adpatel31@myseneca.ca
+Section: NCC
+Date: 20- Mar-2021
+*/
+
+In this Workshop, I have learnt and demonstrated the following abilities:
+
+#	copy data from a file into a sequential container
+#	use the numeric library to accumulate data values
+#   use a lambda expression to specify an operation on each value in a data set
+#   use the algorithm library to sort data values
+
+
+   1. list all the STL functions that you have used in this workshop; explain your reasoning for choosing each one, and not another.
+   A: 
+   
+   2. present the advantages of using STL algorithms vs. implementing the functionality by yourself using loops.
+   A: Algorithms are optimized for use with STL containers, and they're faster, clearer, and more idiomatic than anything you can write yourself. 
+      they provide a method for removing loops to reduce code logic complexity.
+	  
+   3. the function that sorts the collection of covids receives as a parameter the field name to use; this can create errors if the client specifies an invalid field (or misspells it). How would you redesign that function to prevent the client to specify an invalid string, allowing any error to be detected by the compiler?
